@@ -1,0 +1,156 @@
+body {
+    background-color:rgb(50, 53, 53);
+    margin: 0;
+    padding: 0;
+}
+
+.con1 { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.boxform {
+    background-color:white;
+    border-radius: 10px;
+    flex-direction: column;
+    padding: 30px 27px;
+    min-width: 370px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}
+
+.boxform header {
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #c7c1c1;
+    
+    margin-bottom: 20px;
+}
+
+.boxform form .inputs {
+    display: flex;
+    margin-bottom: 10px;
+    flex-direction: column;
+}
+
+.boxform form .sub {
+    display: flex;
+    margin-bottom: 10px;
+    flex-direction: column;
+}
+
+.boxform form .inputs input {
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.boxform form .office2 {
+    margin-top: 10px;
+  }
+
+
+
+input:valid{
+    outline-color:green;
+}
+
+input:invalid{
+    outline-color:red;
+}
+
+.atleast {
+    font-size: x-small;
+    margin-top: 3px;
+}
+
+.btn { 
+    background: rgb(165, 114, 212);
+    border-radius: 5px;
+    border: 1px solid black;
+    outline: none;
+    height: 30px;
+    color:  white;
+    cursor: pointer;
+    margin-top: 10px;
+    
+}
+
+label{
+    margin-bottom: 3px;
+}
+
+
+/* Home */
+
+.navbar { 
+    display: flex;
+    background: rgb(178, 208, 209);
+    height: 50px;
+   
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}
+
+.navbar .logo { 
+    margin: 5px;
+}
+
+.profile { 
+    margin-left: 900px;
+    
+}
+
+.profile a { 
+    margin: 20px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+main { 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.top { 
+    display: flex;
+    flex-direction: row;
+}
+
+p { 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 5px;
+}
+
+.box{
+    background: rgb(178, 208, 209);
+    max-width: 500px;
+    height: 60px;
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}
+
+
+input:invalid {
+    border-color: red; 
+}
+
+input::placeholder {
+    color: red; 
+}
+
+
+
+
+
+
